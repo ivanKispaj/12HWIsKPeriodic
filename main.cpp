@@ -5,7 +5,6 @@
 //
 
 #include "String.h"
-#include <string>
 
 
 int main(int argc, const char *argv[])
@@ -24,6 +23,7 @@ int main(int argc, const char *argv[])
 
     // second variant
     String str;
+   
     K = 6;
     if (str.IsKPeriodic("cvbcvbcvbcvb", K))
     {

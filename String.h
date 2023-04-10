@@ -9,7 +9,7 @@
 #include <iostream>
 
 #define NO_OF_CHARS 256
-class String: public std::string
+class String : public std::string
 {
     std::string _string;
 

@@ -33,3 +33,4 @@
 *.app
 bin/*
 .gitignore
+README.md

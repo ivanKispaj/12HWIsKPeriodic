@@ -10,8 +10,13 @@
 bool String::IsKPeriodic(int K)
 {
     // if K less or equal zero
-    if (K <= 0 && _string.size() == 0)
+    if (K <= 0 || _string.empty())
     {
+        if (_string.empty())
+        {
+            std::cout << "Строка пустая!\n";
+            std::cout << "Воспользуйтесь методом: IsKPeriodic(std::string, int) \n";
+        }
         return false;
     }
     // if the string is equal to itself
@@ -41,7 +46,7 @@ bool String::IsKPeriodic(std::string &string, int K)
     if (IsKPeriodic(K))
     {
         return true;
-    } 
+    }
     return false;
 }
 
@@ -51,7 +56,7 @@ bool String::IsKPeriodic(std::string &&string, int K)
     if (IsKPeriodic(K))
     {
         return true;
-    } 
+    }
     return false;
 }
 
