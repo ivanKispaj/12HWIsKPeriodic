@@ -28,5 +28,8 @@
 
 # Executables
 *.exe
+.vscode
 *.out
 *.app
+bin/*
+.gitignore
