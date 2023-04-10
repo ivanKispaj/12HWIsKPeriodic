@@ -34,3 +34,17 @@ bool IsKPeriodic(int K);
         std::cout << "строка: " << string << " не кратна: " << K << "\n";
     }
 ```
+### Second variant
+```C++
+    String str;
+   
+    int K = 6;
+    if (str.IsKPeriodic("cvbcvbcvbcvb", K))
+    {
+        std::cout << "строка: " << str << " -> кратна: " << K << "\n";
+    }
+    else
+    {
+        std::cout << "строка: " << str << " не кратна: " << K << "\n";
+    }
+```

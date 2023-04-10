@@ -33,7 +33,5 @@ int main(int argc, const char *argv[])
     {
         std::cout << "строка: " << str << " не кратна: " << K << "\n";
     }
-
-    std::string asd = "asdfsadasd";
     return 0;
 }
